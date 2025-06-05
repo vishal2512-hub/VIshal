@@ -1,0 +1,35 @@
+/* src/pages/Home.css */
+.home-page {
+  padding: 20px;
+}
+
+.movie-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* src/components/MovieCard.css */
+.movie-card {
+  width: 200px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.book-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}

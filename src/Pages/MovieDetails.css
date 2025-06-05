@@ -1,0 +1,22 @@
+/* src/pages/MovieDetails.css */
+.movie-details {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+}
+
+.movie-details img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.book-now {
+  margin-top: 20px;
+  background-color: #e50914;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
